@@ -38,12 +38,10 @@ git clone https://github.com/liuxingqitd/content-risk-detector \
   ~/.claude/skills/content-risk-detector
 ```
 
-### 方式二：从 `.skill` 文件安装
+### 方式二：通过 Skills CLI 安装
 
-如果你有打包好的 `.skill` 文件，在 Claude Code 中运行：
-
-```
-/skill install content-risk-detector.skill
+```bash
+npx skills add liuxingqitd/content-risk-detector -g -y
 ```
 
 ## 使用方法
@@ -98,9 +96,9 @@ content-risk-detector/
 
 ## 规则来源
 
-- [抖音社区自律公约](https://www.douyin.com/about/community)
-- [小红书社区公约](https://www.xiaohongshu.com/protocol/community)
-- [视频号常见违规内容概览](https://channels.weixin.qq.com/)
+- 抖音社区自律公约
+- 小红书社区公约
+- 视频号常见违规内容概览
 
 > 本工具基于平台公开规则进行风险提示，不构成法律意见或平台官方判定。最终以平台实际审核结果为准。
 
