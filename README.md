@@ -1,5 +1,15 @@
 # content-risk-detector
 
+<p align="center">
+  <a href="https://github.com/liuxingqitd/content-risk-detector/stargazers">
+    <img src="https://img.shields.io/github/stars/liuxingqitd/content-risk-detector" alt="Stars" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/liuxingqitd/content-risk-detector" alt="MIT License" />
+  </a>
+  <img src="https://img.shields.io/badge/平台-抖音%20|%20小红书%20|%20视频号-blue" alt="平台" />
+</p>
+
 > 短视频逐字稿内容合规检测 Claude Skill，支持抖音、小红书、视频号三大平台。
 
 ## 简介
